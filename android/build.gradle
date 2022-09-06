@@ -50,10 +50,11 @@ repositories {
     }
     google()
     mavenCentral()
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
-    implementation "com.websitebeaver:documentscanner:1.0.1"
+    implementation 'com.github.cargosnap:android-document-scanner:1d5f0a2346'
 }
